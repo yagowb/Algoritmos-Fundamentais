@@ -1,23 +1,21 @@
 class Main {
     public static void main(String[] args){
 
-
-    //TrocaDeVariaveis t = new TrocaDeVariaveis();
-    //t.TrocaDeValores();
-
-    //Contagem t = new Contagem();
-    //t.Contagem();
+    //Contagem t = new contagemnumeros();
+    //t.contagemdenumeros();
 
     //Somatorio t = new Somatorio();
-    //t.Somatorio();
+    //t.somatotal();
 
     //NumeroPrimo t = new NumeroPrimo();
-    //t.NumeroPrimo();
+    //t.verificaprimo();
 
     //MaximoDivisorComum t = new MaximoDivisorComum();
-    //t.MaximoDivisorComum();
+    //t.mdc();
 
     //Fibonacci t = new Fibonacci();
-    //t.Fibonacci();
+    //t.sequenciafibonacci();
+
+
     }
 }
