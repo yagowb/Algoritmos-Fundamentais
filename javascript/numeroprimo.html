@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+
+    function numeroprimo(x){
+        var cont = 0;
+        for(let i = 1; i <= x; i++){
+            if(x%i == 0){
+                cont++;
+            }
+        }
+        if(cont == 2){
+            return true
+        }else{
+            return false
+        }
+    }
+
+    console.log(numeroprimo(7));
+
+
+</script>

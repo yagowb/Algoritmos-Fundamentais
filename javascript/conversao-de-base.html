@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<Script>
+
+//converter um número inteiro decimal para sua representação binária
+
+var n = prompt("Digite um número inteiro decimal:");
+
+var q = n;
+var ndigit = 0;
+var novarep = [];
+var r;
+
+do{
+    r = q%2;
+    novarep[ndigit] = r;
+    ndigit++;
+    q = Math.trunc(q / 2);
+}while(q != 0);
+
+console.log(`Número ${n} na base binária: `);
+
+for(var i = ndigit - 1; i >= 0; i--){
+    console.log(novarep[i]);
+}
+
+</Script>

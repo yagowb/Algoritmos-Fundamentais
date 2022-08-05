@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+
+    var x = parseInt(prompt("Digite um número inteiro"));
+
+    var inv = 0;
+    var digito;
+
+    while(x > 0){
+        digito = x%10;
+        inv = inv * 10 + digito;
+        x = Math.trunc(x/10);
+    }
+
+    console.log(`Número inverso: ${inv}`);
+</script>
