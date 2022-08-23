@@ -6,8 +6,23 @@ main {
     text-align: center;
 }
 
-button {
+.botao1 {
     background-color: rgb(182, 182, 24);
+    font-weight: bold;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.botao2 {
+    background-color: rgb(211, 89, 32);
+    font-weight: bold;
     color: black;
     padding: 15px 32px;
     text-align: center;
