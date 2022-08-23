@@ -1,36 +1,39 @@
 h1, h2 {
+    
     text-align: center;
     color: rgb(4, 146, 35);
 }
+
 main {
     text-align: center;
 }
 
 .botao1 {
-    background-color: rgb(211, 211, 11);
+    border: none;
+    background-color: rgba(241,218,79,255);
     font-weight: bold;
     color: black;
-    padding: 15px 32px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 4px;
+    margin: 11px 20px;
     cursor: pointer;
-    
 
 }
 
 .botao2 {
-    background-color: rgb(211, 89, 32);
+    border: none;
+    
     font-weight: bold;
     color: black;
-    padding: 15px 32px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 11px 20px;
     cursor: pointer;
 
 }
