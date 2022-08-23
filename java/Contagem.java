@@ -5,7 +5,7 @@ public class Contagem {
     Scanner prompt = new Scanner(System.in);
     int n, nota, cont = 0, i = 0;
     
-    public void Contagem(){
+    public void contagemdenumeros(){
       System.out.println("Quantidade de alunos: ");
       int n = prompt.nextInt();
 
