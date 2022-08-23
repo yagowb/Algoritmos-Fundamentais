@@ -1,3 +1,7 @@
+//ALTERAR CÓDIGO
+
+
+
 class QuickSort
 {
     /* This function takes last element as pivot,
