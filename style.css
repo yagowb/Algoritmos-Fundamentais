@@ -18,14 +18,14 @@ main {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 11px 20px;
+    margin: 11px 30px;
     cursor: pointer;
 
 }
 
 .botao2 {
     border: none;
-    
+    background-color: rgba(254,255,254,255);
     font-weight: bold;
     color: black;
     padding: 5px 5px;
@@ -33,7 +33,18 @@ main {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 11px 20px;
+    margin: 20px 20px;
     cursor: pointer;
 
+}
+
+
+
+.rodape {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: 100px;
+    
 }
