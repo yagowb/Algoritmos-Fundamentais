@@ -1,7 +1,16 @@
-<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máximo Divisor Comum</title>
+</head>
+<body>
+    <h3>Algoritmo de MDC</h3>
 <Script>
 
-    var mdc = function(num1, num2) {
+    function mdc(num1, num2) {
 
         var resto;
     
@@ -13,9 +22,15 @@
     
         } while (resto != 0);
     
-        return num1;
+        document.write("Máximo divisor comum: " + num1);
     }
 
-    var n1 = prompt("Digite o primeiro número")
+    var n1 = parseInt(prompt("Digite o primeiro número: "));
+    var n2 = parseInt(prompt("Digite o segundo número:"));
+
+    mdc(n1,n2);
+
 
 </Script>
+</body>
+</html>
