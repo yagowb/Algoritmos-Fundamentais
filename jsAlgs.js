@@ -10,5 +10,3 @@ function sum () {
   // 1
   sumResultSelector.value = +sumNum1Selector.value + +sumNum2Selector.value;
 }
-
-sumBtn.addEventListener('click', sum);

@@ -1,6 +1,8 @@
 <meta charset="UTF-8">
 <script>
 
+    var n = prompt("Digite um número: ");
+
     function numeroprimo(x){
         var cont = 0;
         for(let i = 1; i <= x; i++){
@@ -9,13 +11,13 @@
             }
         }
         if(cont == 2){
-            return true
+            document.write("É primo");
         }else{
-            return false
+            document.write("Não é primo");
         }
     }
 
-    console.log(numeroprimo(7));
+    numeroprimo(n);
 
 
 </script>

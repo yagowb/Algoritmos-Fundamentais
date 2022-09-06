@@ -1,22 +1,22 @@
 <script>
 
-var n = prompt("Digite o número de termos")
+var n = prompt("Digite o número de termos");
 
 var a = 0;
 var b = 1;
 var i = 2;
 
 while(i < n){
-    console.log(a + ", " + b + ", ");
+    document.write(a + ", " + b + ", ");
     a += b;
     b += a;
     i += 2;
 }
 
 if(i == n){
-    console.log(a + ", " + b)
+    document.write(a + ", " + b)
 }else{
-    console.log(a)
+    document.write(a)
 }
 
 </script>
