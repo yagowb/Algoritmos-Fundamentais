@@ -9,8 +9,17 @@
     <h3>Ordenação em método QuickSort</h3>
 <body>
     <script>
-    //alterar código
-        var items = [5,3,7,6,2,9];
+        
+        var items = [];
+        
+        for(var a = 0; a < 6; a++) {
+            items[a] = prompt('Digite o elemento ' + (a+1));
+        }
+
+        document.write("Array digitado: " + items);
+        document.write("<br><br><br>");
+        
+        
         function swap(items, leftIndex, rightIndex){
             var temp = items[leftIndex];
             items[leftIndex] = items[rightIndex];
@@ -51,7 +60,8 @@
         }
         // first call to quick sort
         var sortedArray = quickSort(items, 0, items.length - 1);
-        console.log(sortedArray); //prints [2,3,5,6,7,9]
+        
+        document.write("Array ordenado: " + sortedArray); 
 
     </script>
 </body>
