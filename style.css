@@ -1,7 +1,9 @@
 h1, h2 {
     
+    font-family: SourceSansPro;
     text-align: center;
     color: rgb(4, 146, 35);
+
 }
 
 main {
@@ -38,7 +40,10 @@ main {
 
 }
 
-
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/SourceSansPro/SourceSansPro-Black.otf);
+}
 
 .rodape {
     text-align: center;
@@ -47,4 +52,6 @@ main {
     display: inline-block;
     padding: 100px;
     margin-left: 35%;
+    font-family: SourceSansPro;
+    
 }
