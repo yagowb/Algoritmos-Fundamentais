@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo Contagem em Java</title>
+</head>
+<body>
+  <h3>Algoritmo de Contagem em Java</h3>
+  <script>
+
+    var n = prompt("Digite o número de notas");
+    
+    var nota;
+    var cont = 0;
+    var i = 0;
+    
+    while(i < n){
+        i++;
+        nota = prompt("Digite a nota do aluno");
+        if(nota >= 5.0){
+            cont++;
+        }
+    }
+    
+    document.write("Número de aprovações: "+ cont);
+    
+    </script>
+    
+<hr><br><br><br><br>
+    <p>
+      import java.util.Scanner;<br><br>
+      
+      public class Contagem {<br><br>
+      
+          Scanner prompt = new Scanner(System.in);<br><br>
+          int n, nota, cont = 0, i = 0;<br><br>
+          
+          public void contagemdenumeros(){<br>
+            System.out.println("Quantidade de alunos: ");<br>
+            int n = prompt.nextInt();<br><br>
+      
+            while(i < n){<br>
+              i = i + 1;<br>
+              System.out.println("Nota do aluno: " + i);<br>
+              nota = prompt.nextInt();<br>
+              if(nota < 7){<br>
+                cont = cont + 0;<br>
+              }else {<br>
+                cont = cont + 1;<br>
+              }<br>
+            }<br>
+            <br>
+            System.out.println("Existem " + n + " alunos matriculados");<br>
+            System.out.println("Foram aprovados " + cont + " aprovados");<br>
+          }<br>
+      }<br>
+    </p>
+</body>
+</html>
