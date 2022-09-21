@@ -19,22 +19,33 @@
     <h3>Algoritmo de Contagem</h3>
     <script>
 
-        var n = prompt("Digite o número de notas");
-        
-        var nota;
         var cont = 0;
-        var i = 0;
+        var N = parseInt(prompt("Digite N: "));
+        var numero = [N];
         
-        while(i < n){
-            i++;
-            nota = prompt("Digite a nota do aluno");
-            if(nota >= 5.0){
-                cont++;
+        for(let i = 1; i <= N; i++){
+            numero[i] = prompt("Digite o " + i + "º número: ");
+        }
+
+        if(numero[1] > N){
+            for(let j = numero[1]; N <= j; j--){
+                if(j > 0){
+                    cont++;
+                }
             }
         }
-        
-        document.write("Número de aprovações: "+ cont);
-        
+
+        if(numero[1] < N){
+            for(let j = numero[1]; j <= N; j++){
+                if(j > 0){
+                   cont++;
+                    }
+                }
+            }
+
+            cont = cont - 1;
+    
+          document.write("Número de valores inteiros entre " + numero[1] + " e " + N + " é igual a: " + cont);
         </script>
 
 
@@ -43,21 +54,33 @@
 
     
     <code>
-        var n = prompt("Digite o número de notas");<br><br>
-        
-        var nota;<br>
         var cont = 0;<br>
-        var i = 0;<br><br>
+        var N = parseInt(prompt("Digite N: "));<br>
+        var numero = [N];<br><br>
         
-        while(i < n){<br>
-            i++;<br>
-            nota = prompt("Digite a nota do aluno");<br>
-            if(nota >= 5.0){<br>
-                cont++;<br>
+        for(let i = 1; i <= N; i++){<br>
+            numero[i] = prompt("Digite o " + i + "º número: ");<br>
+        }<br><br>
+
+        if(numero[1] > N){<br>
+            for(let j = numero[1]; N <= j; j--){<br>
+                if(j > 0){<br>
+                    cont++;<br>
+                }<br>
             }<br>
         }<br><br>
-        
-        document.write("Número de aprovações: "+ cont);<br>
+
+        if(numero[1] < N){<br>
+            for(let j = numero[1]; j <= N; j++){<br>
+                if(j > 0){<br>
+                   cont++;<br>
+                    }<br>
+                }<br>
+            }<br><br>
+
+            cont = cont - 1;<br><br>
+    
+          document.write("Número de valores inteiros entre " + numero[1] + " e " + N + " é igual a: " + cont);<br>
       </code>
     </div>
 </body>
