@@ -35,12 +35,13 @@ main {
 
 .rodape {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
     display: inline-block;
     padding: 100px;
     margin-left: 35%;
     font-family: SourceSansPro;
     
+
 }
 
